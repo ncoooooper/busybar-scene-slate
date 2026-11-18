@@ -3,7 +3,7 @@ import {wrap} from "@shared/surface";
 type S={scene:number;shot:number;take:number;mode:number;saved:string[];cursor:number};
 const modes=["Take","Scene","Shot","Keepers"];
 function slate(s:S){return s.scene+"."+s.shot+" / "+s.take;}
-desk<S>({name:"Scene Slate",accent:"#6DA9E9",motion:{"motif":"folio","color":"#6DA9E9","shine":"#E2F4FF"},initial:()=>({scene:1,shot:1,take:1,mode:0,saved:[],cursor:0}),render:s=>{
+desk<S>({name:"Scene Slate",accent:"#6DA9E9",motion:{enabled:false},initial:()=>({scene:1,shot:1,take:1,mode:0,saved:[],cursor:0}),render:s=>{
  const mark=slate(s);return {title:modes[s.mode],value:s.mode===3?(s.saved[s.cursor]||"None"):s.mode===1?"S"+s.scene:s.mode===2?"Shot "+s.shot:"T"+s.take,
  lines:["Scene "+s.scene+" / shot "+s.shot,"Take "+s.take+(s.saved.includes(mark)?" * keeper":""),"Keepers "+s.saved.length,
  "Wheel: select mode","Click: advance / browse","Start: toggle keeper"]};},
