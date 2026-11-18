@@ -2,7 +2,7 @@
   "name": "busybar-scene-slate",
   "private": true,
   "version": "0.1.0",
-  "description": "Scene Slate",
+  "description": "Slate scene and shot numbers, advance takes, and mark keepers for the editor.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {

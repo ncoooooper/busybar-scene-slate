@@ -4,6 +4,6 @@
   "name": "Scene Slate",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Scene Slate",
+  "description": "Slate scene and shot numbers, advance takes, and mark keepers for the editor.",
   "author": "ncoooooper"
 }
