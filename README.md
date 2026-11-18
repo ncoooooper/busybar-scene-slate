@@ -4,6 +4,20 @@ Slate scene and shot numbers, advance takes, and mark keepers for the editor.
 
 Use the front display as a small slate between takes. The person logging the shoot can read the same take number as the camera operator and flag a keeper while the scene is still fresh.
 
+## Screen transitions
+
+Follow the slate as you mark a take and move on to the next setup.
+
+![Scene Slate front display. Follow the slate as you mark a take and move on to the next setup.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Scene Slate rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Mark a take for the editor
 
 1. In **Take**, read the active take number before rolling. The rear display identifies the scene and shot.
@@ -36,6 +50,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)

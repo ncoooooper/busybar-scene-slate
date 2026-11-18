@@ -12,7 +12,7 @@
   "frames": 54,
   "distinct_frames": 20,
   "exit": "App io.ncoooooper.sceneslate exited: finished; heap peak 80.8 of 128 KiB",
-  "sha256": "bf422b716df19397d3a5d295473ce7851941e5bc3afdc8eedd840bb253fc0ba6",
+  "sha256": "2d72c7cf008d574f2895b81ff24f3159539e7cd771d01202c54c2890509b8d98",
   "display_test": {
     "firmware": "1.3.1",
     "input": "On-device controls",
